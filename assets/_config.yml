@@ -88,3 +88,9 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Sorting posts by
+## update: the 'updated' in post, use the 'date' if don't specified.
+## date: the 'date' field in post.
+## update-auto: the 'updated' in post, use system last modified time if don't specified.
+sort_by: updated
